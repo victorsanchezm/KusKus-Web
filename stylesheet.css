@@ -1,0 +1,133 @@
+/*-------------fonts&textos-------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:500,700,900,400,200,300,600,100');
+
+      h1{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 55px;
+        margin-left: 20px;
+}
+      h4{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 35px;
+        margin-left: 20px;
+      }
+
+      p{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 20px;
+        margin: 0 10px 50px 20px;
+      }
+
+      a {
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        text-decoration: none;
+        color: inherit;
+      }
+
+/*-------------"columnas"-------------*/
+
+    .bttm{
+      vertical-align: bottom;
+    }
+
+    .col-400{
+      max-width: 400px;
+    }
+
+    .col-500{
+      max-width: 500px
+    }
+
+    .col-600{
+      max-width: 600px
+    }
+
+    .col-700{
+      max-width: 700px
+    }
+
+/*-------------full-body-------------*/
+
+
+    html,  body {
+        margin: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+/*-------------colors bg-------------*/
+
+      .blackbg{
+        background-color: #000000;
+      }
+
+      .whitebg{
+        background-color: #ffffff;
+      }
+
+      .palredbg{
+        background-color: #CC3B44;
+      }
+
+      .palbluebg{
+        background-color: #499AEF;
+      }
+
+      .palyellowbg{
+        background-color: #FFFA49;
+      }
+
+/*-------------font colors-------------*/
+
+      .fontwhite{
+        color: #ffffff;
+      }
+
+      .fontblack{
+        color: #000000 !important;
+      }
+/*-------------floats-------------*/
+
+      .right{
+        float: right;
+      }
+
+      .left{
+        float: left;
+      }
+
+/*-------------modules-------------*/
+
+      .starthead{
+        margin: 0;
+        top: 0;
+        width: 100%;
+        height: 250px;
+      }
+
+      .boxy{
+        margin: 0;
+        top: 0;
+        width: 100%;
+        height:100%;
+      }
+
+      .stuff{
+        float: left;
+        margin: 0;
+        top: 0;
+        width: 100%;
+      }
+
+      .btn-head{
+        padding: 5px;
+        margin: 20px;
+
+      }
