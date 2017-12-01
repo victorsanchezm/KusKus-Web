@@ -7,14 +7,22 @@
         font-weight: 700;
         font-size: 55px;
         line-height: 55px;
-        margin-left: 20px;
-}
+        margin-right: 10px;
+
+      }
+
+      h3{
+        font-family: 'Barlow Semi Condensed', sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 30px;
+
+      }
       h4{
         font-family: 'Barlow Semi Condensed', sans-serif;
         font-weight: 500;
         font-size: 25px;
-        line-height: 35px;
-        margin-left: 20px;
+        line-height: 30px;
       }
 
       p{
@@ -22,7 +30,8 @@
         font-weight: 300;
         font-size: 18px;
         line-height: 20px;
-        margin: 0 10px 50px 20px;
+        padding-right: 30px;
+
       }
 
       a {
@@ -31,34 +40,12 @@
         color: inherit;
       }
 
-/*-------------"columnas"-------------*/
+      html,  body {
 
-    .bttm{
-      vertical-align: bottom;
-    }
-
-    .col-400{
-      max-width: 400px;
-    }
-
-    .col-500{
-      max-width: 500px
-    }
-
-    .col-600{
-      max-width: 600px
-    }
-
-    .col-700{
-      max-width: 700px
-    }
-
-/*-------------full-body-------------*/
-
-
-    html,  body {
         margin: 0;
         width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
         height: 100%;
       }
 
@@ -72,22 +59,37 @@
         background-color: #ffffff;
       }
 
-      .palredbg{
-        background-color: #CC3B44;
+      .pinkbg{
+        background-color: #FF2CDC;
       }
 
-      .palbluebg{
-        background-color: #499AEF;
+      .bluebg{
+        background-color: #1FC0FF;
       }
 
-      .palyellowbg{
-        background-color: #FFFA49;
+      .yellowbg{
+        background-color: #FFF72B;
+      }
+
+      .greenbg{
+        background-color: #5DFF2C;
+      }
+
+      .redbg{
+        background-color: #FF0E1D;
       }
 
 /*-------------font colors-------------*/
 
+      .fontred{
+        color: #FF2500;
+        font-size: 13px;
+        font-weight: bold;
+
+      }
+
       .fontwhite{
-        color: #ffffff;
+        color: #ffffff !important;
       }
 
       .fontblack{
@@ -105,29 +107,120 @@
 
 /*-------------modules-------------*/
 
+
+      .inliner{
+        display: inline-block;
+
+      }
+
+      .img-mod{
+        display: inline-block;
+        align-content: center;
+
+      }
+
+      .inline-mod{
+        display: inline-block;
+        margin: 20px;
+
+      }
+
+      .drips-bg{
+        background-image: url(img/drips.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: repeat;
+        background-size: auto;
+      }
+
+/*media-query--------*/
+          @media only screen and (max-device-width: 800px) {
+            .drips-bg{
+              background-image: none;
+
+          }
+      }
+/*media-query--------*/
+
+
       .starthead{
+        background-image: url(img/bg_patron.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto;
+        padding: 5px 20px 5px 20px;
         margin: 0;
         top: 0;
         width: 100%;
-        height: 250px;
+        height: 300px;
       }
+/*media-query--------*/
+    @media only screen and (max-device-width: 480px) {
+      .starthead{
+        background-attachment: scroll;
+
+    }
+}
+/*media-query--------*/
 
       .boxy{
         margin: 0;
         top: 0;
         width: 100%;
-        height:100%;
+
       }
 
       .stuff{
         float: left;
         margin: 0;
+        padding: 30px 30px 30px 20px;
         top: 0;
         width: 100%;
+        justify-content: space-around;
       }
 
-      .btn-head{
-        padding: 5px;
+      .rrss{
+        width: 30px;
         margin: 20px;
+        padding: 20px;
+        height: 100px;
 
+
+      }
+
+      .product{
+        display: flex;
+        width: 600px;
+        height: 200px;
+      }
+      .description{
+        display: inline-block;
+        padding: 0 25px 0 20px;
+      }
+      /*media-query--------*/
+                @media only screen and (max-device-width: 480px) {
+                  .product{
+                    display: block;
+                    width: 200px;
+                    height: auto;
+                  }
+                  .product p{
+                    font-size: 15px !important;
+                    line-height: 18px !important;
+                    padding-right: 0;
+                  }
+                  .product h3{
+                    margin-bottom: 10px;
+                  }
+                  .description{
+                    padding: 0 15px 20px 20px;
+                  }
+            }
+      /*media-query--------*/
+
+      .imgprod{
+        display: inline-block;
+        width: 200px;
+        height: 200px;
       }
